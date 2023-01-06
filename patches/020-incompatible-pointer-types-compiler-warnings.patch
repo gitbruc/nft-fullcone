@@ -1,0 +1,13 @@
+diff --git a/src/Makefile b/src/Makefile
+index 8427ebb..dee1979 100644
+--- a/src/Makefile
++++ b/src/Makefile
+@@ -12,7 +12,7 @@ $(TARGET)-objs := \
+ 	nft_ext_fullcone.o
+ 
+ # product
+-ccflags-y += -Werror -Wall
++ccflags-y += -Werror -Wall -Wno-error=incompatible-pointer-types
+ 
+ # develop
+ #ccflags-y += -Wall -Wno-unused-function
