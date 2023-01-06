@@ -1,7 +1,5 @@
-diff --git a/src/Makefile b/src/Makefile
-index 8427ebb..dee1979 100644
---- a/src/Makefile
-+++ b/src/Makefile
+--- a/Makefile
++++ b/Makefile
 @@ -12,7 +12,7 @@ $(TARGET)-objs := \
  	nft_ext_fullcone.o
  
