@@ -12,7 +12,7 @@ $(TARGET)-objs := \
 	nft_ext_fullcone.o
 
 # product
-ccflags-y += -Werror -Wall
+ccflags-y += -Werror -Wall -Wno-frame-address
 
 # develop
 #ccflags-y += -Wall -Wno-unused-function
